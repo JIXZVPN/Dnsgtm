@@ -5,20 +5,8 @@
 ## run command: ./globe-jix1.sh l
 
 ## Your DNSTT Nameserver & your Domain `A` Record
-NS='sdns.myudp.elcavlaw.com'
-A='myudp.elcavlaw.com'
-NS1='ns-artph.elcavlaw.com'
-A1='artph.elcavlaw.com'
-NS2='sdns.myudp1.elcavlaw.com'
-A2='myudp1.elcavlaw.com'
-NS3='sdns.myudph.elcavlaw.com'
-A3='myudp1.elcavlaw.com'
-NS4='ns-artph1.elcavlaw.com'
-A4='artph1.elcavlaw.com'
-NS5='ns-artsg1.elcavlaw.com'
-A5='artsg1.elcavlaw.com'
-NS6='ns-artsg2.elcavlaw.com'
-A6='artsg2.elcavlaw.com'
+NS='ns-b8LERHe5.mr-radwan-daoud.de'
+A='b8LERHe5.mr-radwan-daoud.de'
 
 ## Repeat dig cmd loop time (seconds) (positive interger only)
 LOOP_DELAY=0
