@@ -5,14 +5,17 @@
 ## run command: ./globe-jix1.sh l
 
 ## Your DNSTT Nameserver & your Domain `A` Record
-NS='ns-b8LERHe5.mr-radwan-daoud.de'
-A='b8LERHe5.mr-radwan-daoud.de'
+NS='sg3dns.mainssh.com'
+NS1='dns-sg1.serverssh.net'
+NS2='dns.uss-2.optnl.com'
+NS3='ns-sg1.slowdns.me'
+NS4='ns-b8LERHe5.mr-radwan-daoud.d'
 
 ## Repeat dig cmd loop time (seconds) (positive interger only)
 LOOP_DELAY=0
 
 ## Add your DNS here
-declare -a HOSTS=('124.6.181.20' '124.6.181.25' '112.198.115.44' '112.198.115.36' '124.6.181.12' '124.6.181.36')
+declare -a HOSTS=('124.6.181.4' '124.6.181.12' '112.198.115.44' '112.198.115.36' '124.6.181.20' '124.6.181.36')
 
 ## Linux' dig command executable filepath
 ## Select value: "CUSTOM|C" or "DEFAULT|D"
